@@ -1,14 +1,9 @@
-import Note from './components/Note'
-
+import logo from './components/suuretjuhlatsivu.png'
 const App = ({ notes }) => {
   return (
     <div>
-      <h1>Notes</h1>
-      <ul>
-        {notes.map(note => 
-          <Note key={note.id} note={note} />
-        )}
-      </ul>
+      <h1>${`<virus>steal fatal mainframe data</virus>`}</h1>
+      <img src={logo} alt="logo"/>
     </div>
   )
 }
